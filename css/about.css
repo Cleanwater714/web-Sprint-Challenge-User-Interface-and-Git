@@ -160,10 +160,11 @@ footer nav a {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
+    padding: 2%;
 }
 
 .aboutj{
-    padding: 5%;
+    width: auto;
 }
 
 .container{
@@ -172,12 +173,48 @@ footer nav a {
 }
 
 .middle{
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-top: 1px dashed green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: auto;
+    padding: 5px;
+}
+
+.middle .one .two .three .four{
     display: flex;
     flex-wrap: wrap;
 }
 
-.one .two .three .four{
-    width: 25%;
+.one{
+    border-bottom: 1px dashed black;
+    flex: 0 50%;
+    padding: 10px;
+}
+
+.two{
+    border-bottom: 1px dashed black;
+    flex: 0 50%;
+    padding: 10px;
+}
+
+.three{
+    border-bottom: 1px dashed black;
+    flex: 0 50%;
+    padding: 10px;
+}
+
+.four{
+    border-bottom: 1px dashed black;
+    flex: 0 50%;
+    padding: 10px;
+}
+
+.middle img{
+    width: auto;
+    height: auto;
+}
+
+.container .abot{
+    padding: 10px;
 }
